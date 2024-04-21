@@ -1,83 +1,156 @@
 body {
-    background-color: #f5edd9;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+  background-color: #f5edd9;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
+/* #E9E3BF
+#D9D1A1
+#C4BA8A
+#AEA56F
+#999052 */
 #logo {
-	width: 100px;
-	height: auto;
+  width: 100px;
+  height: auto;
 }
-header { 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #000;
-}
-nav ul{
-    display: flex;
-}
-nav ul li {
-    list-style: none;
-    margin: 0 1rem;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-    font-size: 1rem;
-    font-weight: 500;
-
-}
-nav ul li a:hover {
-    color: #001ec7;
-}
-
-.header-images {
-    display: flex;
-    justify-content: center;
-    margin: 5rem 0;
-}
-
-#img-header {
-    width: 800px;
-    border-radius: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #2c2a2a;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c2a2a;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  height: 3rem;
 }
 .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
 }
 
 .contact ul {
-    display: flex;
-    
+  display: flex;
 }
 
 .contact ul li a {
-    color: white;
-    text-decoration: none;
-    margin: 1rem;
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
 }
 
 .contact ul li {
-    list-style: none;
+  list-style: none;
 }
 
-.mision , .services, .proposal { 
-    margin: 1rem;
+.mision,
+.services,
+.proposal {
+  margin: 1rem;
+}
+
+.carousel-container {
+  width: 50%;
+  margin: auto;
+}
+
+.accordion {
+  width: 50%;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.accordion-button {
+  font-weight: 700;
+  background-color: #fae5b1;
+}
+
+.items {
+  margin: 4rem auto;
+}
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  margin: 5rem auto;
+  background-color: #e4c59e;
+  border: 1px solid black;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1.heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.25s;
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-card {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  overflow: hidden;
+}
+.img-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+.card-content {
+  padding: 15px;
+  text-align: left;
+}
+.card-title {
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+.card-add {
+    background-color: rgb(236, 213, 137);
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.card-add:hover {
+    cursor: pointer;
 }
